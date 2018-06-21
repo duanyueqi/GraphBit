@@ -5,7 +5,7 @@ This repo contains the basic code for Graphbit on CIFAR-10.
 
 ## Quick Start
 
-The code is based on Keras and TensorFlow. Please prepare the real-valued feature in 4096 dimensions of CIFAR-10 by downing the data through the link, then set the parameters in three python files, and run main.py to train the network and get hashed compact features. Finally use bifeat_extract.m to extract the binary feature and run retrival.m to get the mAP on retrival task. 
+The code is based on Keras and TensorFlow. Please prepare the real-valued feature in 4096 dimensions of CIFAR-10 by downing the data through the link, and run main.py to train the network and get hashed compact features. Finally you can use bifeat_extract.m to extract the binary feature and run retrival.m to get the mAP on retrival task. 
 
  
 ## Repo organization 
